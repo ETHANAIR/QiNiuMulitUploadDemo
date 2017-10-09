@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F80102C6B6EE023C1C448C /* Pods_QiNiuMulitUploadDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82158D7571CDDD61BFE1C907 /* Pods_QiNiuMulitUploadDemo.framework */; };
+		AA610E731F8B4A8400A04B6D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA610E701F8B4A8300A04B6D /* 1.jpg */; };
+		AA610E741F8B4A8400A04B6D /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA610E711F8B4A8300A04B6D /* 0.jpg */; };
+		AA610E751F8B4A8400A04B6D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA610E721F8B4A8300A04B6D /* 2.jpg */; };
+		AA8A21761F8B3D3500D2B575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A21751F8B3D3500D2B575 /* AppDelegate.m */; };
+		AA8A21791F8B3D3500D2B575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A21781F8B3D3500D2B575 /* ViewController.m */; };
+		AA8A217C1F8B3D3500D2B575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8A217A1F8B3D3500D2B575 /* Main.storyboard */; };
+		AA8A217E1F8B3D3500D2B575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A217D1F8B3D3500D2B575 /* Assets.xcassets */; };
+		AA8A21811F8B3D3500D2B575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8A217F1F8B3D3500D2B575 /* LaunchScreen.storyboard */; };
+		AA8A21841F8B3D3500D2B575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A21831F8B3D3500D2B575 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0410015A9EBA9A08E6512DCB /* Pods-QiNiuMulitUploadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuMulitUploadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiNiuMulitUploadDemo/Pods-QiNiuMulitUploadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2C7B6E72F157DBE9B84D2A /* Pods-QiNiuMulitUploadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiNiuMulitUploadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiNiuMulitUploadDemo/Pods-QiNiuMulitUploadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		82158D7571CDDD61BFE1C907 /* Pods_QiNiuMulitUploadDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiNiuMulitUploadDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA610E701F8B4A8300A04B6D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AA610E711F8B4A8300A04B6D /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		AA610E721F8B4A8300A04B6D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AA8A21711F8B3D3500D2B575 /* QiNiuMulitUploadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiNiuMulitUploadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8A21741F8B3D3500D2B575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8A21751F8B3D3500D2B575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8A21771F8B3D3500D2B575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA8A21781F8B3D3500D2B575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA8A217B1F8B3D3500D2B575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8A217D1F8B3D3500D2B575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8A21801F8B3D3500D2B575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8A21821F8B3D3500D2B575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8A21831F8B3D3500D2B575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8A216E1F8B3D3500D2B575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F80102C6B6EE023C1C448C /* Pods_QiNiuMulitUploadDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B5AB38E5A7A0044871C4C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0410015A9EBA9A08E6512DCB /* Pods-QiNiuMulitUploadDemo.debug.xcconfig */,
+				6B2C7B6E72F157DBE9B84D2A /* Pods-QiNiuMulitUploadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA8A21681F8B3D3400D2B575 = {
+			isa = PBXGroup;
+			children = (
+				AA8A21731F8B3D3500D2B575 /* QiNiuMulitUploadDemo */,
+				AA8A21721F8B3D3500D2B575 /* Products */,
+				75B5AB38E5A7A0044871C4C2 /* Pods */,
+				B125288BD44BADAF07C75FB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8A21721F8B3D3500D2B575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A21711F8B3D3500D2B575 /* QiNiuMulitUploadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8A21731F8B3D3500D2B575 /* QiNiuMulitUploadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A21741F8B3D3500D2B575 /* AppDelegate.h */,
+				AA8A21751F8B3D3500D2B575 /* AppDelegate.m */,
+				AA8A21771F8B3D3500D2B575 /* ViewController.h */,
+				AA8A21781F8B3D3500D2B575 /* ViewController.m */,
+				AA610E711F8B4A8300A04B6D /* 0.jpg */,
+				AA610E701F8B4A8300A04B6D /* 1.jpg */,
+				AA610E721F8B4A8300A04B6D /* 2.jpg */,
+				AA8A217A1F8B3D3500D2B575 /* Main.storyboard */,
+				AA8A217D1F8B3D3500D2B575 /* Assets.xcassets */,
+				AA8A217F1F8B3D3500D2B575 /* LaunchScreen.storyboard */,
+				AA8A21821F8B3D3500D2B575 /* Info.plist */,
+				AA8A21831F8B3D3500D2B575 /* main.m */,
+			);
+			path = QiNiuMulitUploadDemo;
+			sourceTree = "<group>";
+		};
+		B125288BD44BADAF07C75FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82158D7571CDDD61BFE1C907 /* Pods_QiNiuMulitUploadDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8A21701F8B3D3500D2B575 /* QiNiuMulitUploadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8A21871F8B3D3500D2B575 /* Build configuration list for PBXNativeTarget "QiNiuMulitUploadDemo" */;
+			buildPhases = (
+				BF1EEB9BDE220FCD50582E39 /* [CP] Check Pods Manifest.lock */,
+				AA8A216D1F8B3D3500D2B575 /* Sources */,
+				AA8A216E1F8B3D3500D2B575 /* Frameworks */,
+				AA8A216F1F8B3D3500D2B575 /* Resources */,
+				5B52F6E8D7CA4CE71CDA22AF /* [CP] Embed Pods Frameworks */,
+				5F741E27DC236A8ADEEBDC17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiNiuMulitUploadDemo;
+			productName = QiNiuMulitUploadDemo;
+			productReference = AA8A21711F8B3D3500D2B575 /* QiNiuMulitUploadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8A21691F8B3D3400D2B575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ethan;
+				TargetAttributes = {
+					AA8A21701F8B3D3500D2B575 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA8A216C1F8B3D3400D2B575 /* Build configuration list for PBXProject "QiNiuMulitUploadDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8A21681F8B3D3400D2B575;
+			productRefGroup = AA8A21721F8B3D3500D2B575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8A21701F8B3D3500D2B575 /* QiNiuMulitUploadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8A216F1F8B3D3500D2B575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA610E751F8B4A8400A04B6D /* 2.jpg in Resources */,
+				AA8A21811F8B3D3500D2B575 /* LaunchScreen.storyboard in Resources */,
+				AA610E741F8B4A8400A04B6D /* 0.jpg in Resources */,
+				AA610E731F8B4A8400A04B6D /* 1.jpg in Resources */,
+				AA8A217E1F8B3D3500D2B575 /* Assets.xcassets in Resources */,
+				AA8A217C1F8B3D3500D2B575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B52F6E8D7CA4CE71CDA22AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QiNiuMulitUploadDemo/Pods-QiNiuMulitUploadDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiNiuMulitUploadDemo/Pods-QiNiuMulitUploadDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F741E27DC236A8ADEEBDC17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiNiuMulitUploadDemo/Pods-QiNiuMulitUploadDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1EEB9BDE220FCD50582E39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiNiuMulitUploadDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8A216D1F8B3D3500D2B575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A21791F8B3D3500D2B575 /* ViewController.m in Sources */,
+				AA8A21841F8B3D3500D2B575 /* main.m in Sources */,
+				AA8A21761F8B3D3500D2B575 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8A217A1F8B3D3500D2B575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8A217B1F8B3D3500D2B575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8A217F1F8B3D3500D2B575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8A21801F8B3D3500D2B575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8A21851F8B3D3500D2B575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA8A21861F8B3D3500D2B575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8A21881F8B3D3500D2B575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0410015A9EBA9A08E6512DCB /* Pods-QiNiuMulitUploadDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiNiuMulitUploadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.QiNiuMulitUploadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8A21891F8B3D3500D2B575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2C7B6E72F157DBE9B84D2A /* Pods-QiNiuMulitUploadDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiNiuMulitUploadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.QiNiuMulitUploadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8A216C1F8B3D3400D2B575 /* Build configuration list for PBXProject "QiNiuMulitUploadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A21851F8B3D3500D2B575 /* Debug */,
+				AA8A21861F8B3D3500D2B575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8A21871F8B3D3500D2B575 /* Build configuration list for PBXNativeTarget "QiNiuMulitUploadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A21881F8B3D3500D2B575 /* Debug */,
+				AA8A21891F8B3D3500D2B575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8A21691F8B3D3400D2B575 /* Project object */;
+}
